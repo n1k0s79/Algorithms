@@ -1,0 +1,12 @@
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Arrays\bin\Debug\Arrays.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Arrays\bin\Debug\Arrays.pdb
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Arrays\obj\Debug\Arrays.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Arrays\obj\Debug\Arrays.pdb
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Arrays\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\bin\Debug\Arrays.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\bin\Debug\Arrays.pdb
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\obj\Debug\Arrays.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\obj\Debug\Arrays.pdb
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache

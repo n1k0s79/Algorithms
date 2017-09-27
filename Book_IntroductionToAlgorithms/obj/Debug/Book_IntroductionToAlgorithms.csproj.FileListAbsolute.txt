@@ -1,0 +1,16 @@
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Book_IntroductionToAlgorithms.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Book_IntroductionToAlgorithms.pdb
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Book_IntroductionToAlgorithms\obj\Debug\Book_IntroductionToAlgorithms.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Book_IntroductionToAlgorithms\obj\Debug\Book_IntroductionToAlgorithms.pdb
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Book_IntroductionToAlgorithms\obj\Debug\Book_IntroductionToAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Math.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Math.pdb
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Book_IntroductionToAlgorithms.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Book_IntroductionToAlgorithms.pdb
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Math.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Book_IntroductionToAlgorithms\bin\Debug\Math.pdb
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Book_IntroductionToAlgorithms\obj\Debug\Book_IntroductionToAlgorithms.csprojResolveAssemblyReference.cache
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Book_IntroductionToAlgorithms\obj\Debug\Book_IntroductionToAlgorithms.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Book_IntroductionToAlgorithms\obj\Debug\Book_IntroductionToAlgorithms.pdb

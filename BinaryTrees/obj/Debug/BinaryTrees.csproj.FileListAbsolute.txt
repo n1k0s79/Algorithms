@@ -1,0 +1,12 @@
+C:\Users\sandalidis\Documents\GitHub\Algorithms\BinaryTrees\bin\Debug\BinaryTrees.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\BinaryTrees\bin\Debug\BinaryTrees.pdb
+C:\Users\sandalidis\Documents\GitHub\Algorithms\BinaryTrees\obj\Debug\BinaryTrees.csprojResolveAssemblyReference.cache
+C:\Users\sandalidis\Documents\GitHub\Algorithms\BinaryTrees\obj\Debug\BinaryTrees.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\BinaryTrees\obj\Debug\BinaryTrees.pdb
+C:\Users\sandalidis\Documents\GitHub\Algorithms\BinaryTrees\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\BinaryTrees\bin\Debug\BinaryTrees.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\BinaryTrees\bin\Debug\BinaryTrees.pdb
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\BinaryTrees\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\BinaryTrees\obj\Debug\BinaryTrees.csprojResolveAssemblyReference.cache
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\BinaryTrees\obj\Debug\BinaryTrees.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\BinaryTrees\obj\Debug\BinaryTrees.pdb

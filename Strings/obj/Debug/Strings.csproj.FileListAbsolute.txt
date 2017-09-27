@@ -1,0 +1,12 @@
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Strings\bin\Debug\Strings.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Strings\bin\Debug\Strings.pdb
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Strings\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Strings\obj\Debug\Strings.dll
+C:\Users\sandalidis\Documents\GitHub\Algorithms\Strings\obj\Debug\Strings.pdb
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\bin\Debug\Strings.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\bin\Debug\Strings.pdb
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\obj\Debug\Strings.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\obj\Debug\Strings.pdb

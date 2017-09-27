@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F33C4AA3-5A14-4FA1-8197-6A6EFBFD26A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Euler</RootNamespace>
+    <AssemblyName>Euler</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Problem002_Even Fibonacci numbers.cs" />
+    <Compile Include="Problem001_Multiples_of_3_and_5.cs" />
+    <Compile Include="Problem025_1000_digit_Fibonacci_number.cs" />
+    <Compile Include="Problem024_Lexicographical_permutations.cs" />
+    <Compile Include="Problem023_Non_abundant_sums.cs" />
+    <Compile Include="Problem022_Names_scores.cs" />
+    <Compile Include="Problem021_Amicable_numbers.cs" />
+    <Compile Include="Problem020_Factorial_digit_sum.cs" />
+    <Compile Include="Problem019_Counting_Sundays.cs" />
+    <Compile Include="Problem018_Maximum_path_sum_I.cs" />
+    <Compile Include="Problem017_Number_letter_counts.cs" />
+    <Compile Include="Problem016_Power_digit_sums.cs" />
+    <Compile Include="Problem015_Lattice_paths.cs" />
+    <Compile Include="Problem014_Collatz_sequence.cs" />
+    <Compile Include="Problem013_Large_sum.cs" />
+    <Compile Include="Problem012_Highly_divisible_triangular_number.cs" />
+    <Compile Include="Problem011_Largest_product_in_grid.cs" />
+    <Compile Include="Problem010_Summation_of_primes.cs" />
+    <Compile Include="Problem009_Special_Pythagorean_triplet.cs" />
+    <Compile Include="Problem008_Largest_product.cs" />
+    <Compile Include="Problem007_10001st_prime.cs" />
+    <Compile Include="Problem006_Sum_Square_Difference.cs" />
+    <Compile Include="Problem005_Smallest_multiple.cs" />
+    <Compile Include="Problem004_Largest palindrome.cs" />
+    <Compile Include="Problem003_Largest prime factor.cs" />
+    <Compile Include="Problem031_Coin_sums.cs" />
+    <Compile Include="Problem030_Digit_fifth_power.cs" />
+    <Compile Include="Problem029_Distinct_powers.cs" />
+    <Compile Include="Problem028_Number_spiral_diagonals.cs" />
+    <Compile Include="Problem027_Quadratic_primes.cs" />
+    <Compile Include="Problem026_Reciprocal_cycles.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Arrays\Arrays.csproj">
+      <Project>{78931624-4c0f-4de7-aa8a-0d95e43f81bb}</Project>
+      <Name>Arrays</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryTrees\BinaryTrees.csproj">
+      <Project>{a3ebade8-ca2b-4797-83b3-d3041466fc1b}</Project>
+      <Name>BinaryTrees</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Calendar\Calendar.csproj">
+      <Project>{d48c2bc7-ad49-4b87-b556-1409094f4e9f}</Project>
+      <Name>Calendar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Math\Math.csproj">
+      <Project>{28030213-2db3-438f-9359-366f7b5f1048}</Project>
+      <Name>Math</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Large_numbers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p022_names.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

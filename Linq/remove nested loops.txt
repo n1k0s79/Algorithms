@@ -1,0 +1,30 @@
+		private static bool HasAccessToContract(AccessUser user)
+        {
+
+            foreach (var role in user.AccessUserRole)
+            {
+                foreach (var right in role.AccessRole.AccessRoleRight)
+                {
+                    foreach (var entity in right.AccessRight.AccessRightEntity)
+                    {
+                        if (entity.Entity == "Contract")
+                        {
+                            return entity.AllowRead ?? false;
+                        }
+                    }
+                }
+            }
+
+            return false;
+        }
+
+		
+		// this is the same as above
+        private static bool HasAccessToContract(AccessUser user)
+        {
+            return (from role in user.AccessUserRole
+                    from right in role.AccessRole.AccessRoleRight
+                    from entity in right.AccessRight.AccessRightEntity
+                    where entity.Entity == "Contract"
+                    select entity.AllowRead ?? false).FirstOrDefault();
+        }

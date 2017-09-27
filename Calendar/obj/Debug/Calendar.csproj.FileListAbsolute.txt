@@ -1,0 +1,5 @@
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Calendar\bin\Debug\Calendar.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Calendar\bin\Debug\Calendar.pdb
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Calendar\obj\Debug\Calendar.csprojResolveAssemblyReference.cache
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Calendar\obj\Debug\Calendar.dll
+C:\Users\sandalidis\Dropbox\Sources\Algorithms\Calendar\obj\Debug\Calendar.pdb
