@@ -20,7 +20,7 @@ namespace Toptal
     }
 
     class Solution
-    {  
+    {
         public int solution(string S)
         {
             var prefSums = new int[S.Length];
