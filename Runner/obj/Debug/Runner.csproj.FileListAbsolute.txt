@@ -16,3 +16,10 @@ C:\Users\Nikos\Dropbox\Sources\Algorithms\Runner\bin\Debug\Runner.pdb
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Runner\obj\Debug\Runner.csprojResolveAssemblyReference.cache
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Runner\obj\Debug\Runner.exe
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Runner\obj\Debug\Runner.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Runner\bin\Debug\Runner.exe.config
+C:\Users\Nikos\Documents\GitHub\Algorithms\Runner\bin\Debug\Runner.exe
+C:\Users\Nikos\Documents\GitHub\Algorithms\Runner\bin\Debug\Runner.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Runner\obj\Debug\Runner.csprojAssemblyReference.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Runner\obj\Debug\Runner.csproj.CoreCompileInputs.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Runner\obj\Debug\Runner.exe
+C:\Users\Nikos\Documents\GitHub\Algorithms\Runner\obj\Debug\Runner.pdb

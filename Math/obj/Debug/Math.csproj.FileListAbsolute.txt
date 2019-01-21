@@ -16,3 +16,11 @@ C:\Users\Nikos\Dropbox\Sources\Algorithms\Math\bin\Debug\Microsoft.VisualStudio.
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Math\obj\Debug\Math.csprojResolveAssemblyReference.cache
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Math\obj\Debug\Math.dll
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Math\obj\Debug\Math.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Math\bin\Debug\Math.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Math\bin\Debug\Math.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Math\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Math\obj\Debug\Math.csprojAssemblyReference.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Math\obj\Debug\Math.csproj.CoreCompileInputs.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Math\obj\Debug\Math.csproj.CopyComplete
+C:\Users\Nikos\Documents\GitHub\Algorithms\Math\obj\Debug\Math.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Math\obj\Debug\Math.pdb

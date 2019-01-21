@@ -10,3 +10,11 @@ C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\bin\Debug\Microsoft.Visua
 C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache
 C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\obj\Debug\Strings.dll
 C:\Users\sandalidis\Dropbox\Sources\Algorithms\Strings\obj\Debug\Strings.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Strings\bin\Debug\Strings.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Strings\bin\Debug\Strings.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Strings\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Strings\obj\Debug\Strings.csprojAssemblyReference.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Strings\obj\Debug\Strings.csproj.CoreCompileInputs.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Strings\obj\Debug\Strings.csproj.CopyComplete
+C:\Users\Nikos\Documents\GitHub\Algorithms\Strings\obj\Debug\Strings.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Strings\obj\Debug\Strings.pdb

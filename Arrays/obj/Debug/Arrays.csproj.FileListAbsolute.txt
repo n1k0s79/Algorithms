@@ -10,3 +10,11 @@ C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\bin\Debug\Microsoft.Visual
 C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\obj\Debug\Arrays.dll
 C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\obj\Debug\Arrays.pdb
 C:\Users\sandalidis\Dropbox\Sources\Algorithms\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Arrays\bin\Debug\Arrays.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Arrays\bin\Debug\Arrays.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Arrays\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Arrays\obj\Debug\Arrays.csprojAssemblyReference.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Arrays\obj\Debug\Arrays.csproj.CopyComplete
+C:\Users\Nikos\Documents\GitHub\Algorithms\Arrays\obj\Debug\Arrays.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Arrays\obj\Debug\Arrays.pdb

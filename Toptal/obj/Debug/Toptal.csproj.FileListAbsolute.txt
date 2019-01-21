@@ -12,3 +12,12 @@ C:\Users\Nikos\Dropbox\Sources\Algorithms\Toptal\bin\Debug\Microsoft.VisualStudi
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Toptal\obj\Debug\Toptal.csprojResolveAssemblyReference.cache
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Toptal\obj\Debug\Toptal.dll
 C:\Users\Nikos\Dropbox\Sources\Algorithms\Toptal\obj\Debug\Toptal.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\bin\Debug\Toptal.dll.config
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\bin\Debug\Toptal.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\bin\Debug\Toptal.pdb
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\obj\Debug\Toptal.csprojAssemblyReference.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\obj\Debug\Toptal.csproj.CoreCompileInputs.cache
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\obj\Debug\Toptal.csproj.CopyComplete
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\obj\Debug\Toptal.dll
+C:\Users\Nikos\Documents\GitHub\Algorithms\Toptal\obj\Debug\Toptal.pdb
