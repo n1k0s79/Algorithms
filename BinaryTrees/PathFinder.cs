@@ -46,19 +46,19 @@ namespace BinaryTrees
         {
             if (node == null) return;
 
-            path.Add(node);
+            //path.Add(node);
 
-            if (node.IsLeaf)
-            {
-                pathDiscovered(path);
-            }
-            else
-            {
-                GetPaths(node.left, new List<Node>(path), pathDiscovered); // note that I create a new list
-                GetPaths(node.right, new List<Node>(path), pathDiscovered);
-                // this way I use the call stack to save the current state of the path
-                // If I didn't then do that and passed the list as a reference, the algorithm would not work
-            }
+            //if (node.IsLeaf)
+            //{
+            //    pathDiscovered(path);
+            //}
+            //else
+            //{
+            //    GetPaths(node.left, new List<Node>(path), pathDiscovered); // note that I create a new list
+            //    GetPaths(node.right, new List<Node>(path), pathDiscovered);
+            //    // this way I use the call stack to save the current state of the path
+            //    // If I didn't then do that and passed the list as a reference, the algorithm would not work
+            //}
         }
 
         /// <summary> Finds all tree paths iteratively </summary>

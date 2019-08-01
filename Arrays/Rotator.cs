@@ -68,6 +68,40 @@
             }
         }
 
+        /// <summary> Rotates all the elements of the array to the left </summary>
+        /// <remarks> see Rotator_Attempts for how this solution was reached </remarks>
+        public static int[] rotLeft(int[] a, int d)
+        {
+            if (a == null || a.Length <= 1) return a;
+
+            int qr = d % a.Length;                              // allow rotations > array length without wasting time
+            if (qr == 0) return a;
+
+            d = d % a.Length;                           // so that I do not waste time
+            int replacements = 0;
+
+            int i = 0;
+            while (replacements < a.Length)
+            {
+                int replace = i;
+                int temp = a[replace];                                    // store the first element that is going to be replaced [1]
+                while (true)
+                {
+                    int takeFrom = replace + d;    // hop to get the element to replace with
+                    if (takeFrom >= a.Length) takeFrom -= a.Length;     // if I hop outside the array correct it
+                    if (takeFrom < 0) takeFrom += a.Length;             // if I hop outside the array correct it
+                    if (takeFrom == i) break;                           // but if I hopped back to the start then STOP
+                    a[replace] = a[takeFrom];
+                    replacements++;
+                    replace = takeFrom;                                 // get ready to replace the next element at the hopped index                    
+                }
+                a[replace] = temp;                                      // for the last replacement use the element that I stored in the beginning [1]
+                replacements++;
+                i++;
+            }
+            return a;
+        }
+
         #region Other ways
 
         public static void LeftRotateR(int[] a, int d)
