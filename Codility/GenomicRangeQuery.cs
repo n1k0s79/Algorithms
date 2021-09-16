@@ -44,7 +44,7 @@ namespace Codility
             return 5;
         }
 
-        private static string GetContainsByPrefix(int[] pA, int[] pC, int[] pG, int[] pT, int p, int q)
+        private static string GetContainsByPrefix(int[] pA, int[] pC, int[] pG, int[] pT, int p, int q, int z, int z2, int z3, int z4, int z5, int z6, int z7, int z8, int z9, int z0)
         {
             var ret = "";
             if (Contains(pA, p, q)) ret += "A";
