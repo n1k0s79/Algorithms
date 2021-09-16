@@ -68,7 +68,8 @@ namespace Math
         [TestMethod]
         public void TestFibonacci()
         {
-            var t = Math.Fibonacci.GenerateFirst(91);
+            var f = Fibonacci.GetFirst();
+            var t = Math.Fibonacci.GenerateFirst(91).ToList();
             foreach(var k in t)
             {
                 var a = k;

@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars", "CodeWars\CodeWa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitManipulation", "BitManipulation\BitManipulation.csproj", "{A9E2C980-4EAB-44A8-9B4D-97D3FF631E8B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Locks", "Locks\Locks.csproj", "{D5848292-941F-41D5-BFD8-206F2336CDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{9A49A9AD-5D7A-407F-82AF-1FC3F26C21C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{A9E2C980-4EAB-44A8-9B4D-97D3FF631E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E2C980-4EAB-44A8-9B4D-97D3FF631E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E2C980-4EAB-44A8-9B4D-97D3FF631E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5848292-941F-41D5-BFD8-206F2336CDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5848292-941F-41D5-BFD8-206F2336CDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5848292-941F-41D5-BFD8-206F2336CDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5848292-941F-41D5-BFD8-206F2336CDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A49A9AD-5D7A-407F-82AF-1FC3F26C21C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A49A9AD-5D7A-407F-82AF-1FC3F26C21C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A49A9AD-5D7A-407F-82AF-1FC3F26C21C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A49A9AD-5D7A-407F-82AF-1FC3F26C21C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
