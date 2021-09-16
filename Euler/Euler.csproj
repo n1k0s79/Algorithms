@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BetterCodeHubTests.cs" />
     <Compile Include="Problem002_Even Fibonacci numbers.cs" />
     <Compile Include="Problem001_Multiples_of_3_and_5.cs" />
     <Compile Include="Problem025_1000_digit_Fibonacci_number.cs" />
@@ -94,6 +95,10 @@
     <ProjectReference Include="..\Math\Math.csproj">
       <Project>{28030213-2db3-438f-9359-366f7b5f1048}</Project>
       <Name>Math</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Physics\Physics.vbproj">
+      <Project>{dd8270b5-7f76-4b95-8938-de1c1d4b0dea}</Project>
+      <Name>Physics</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
