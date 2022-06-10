@@ -1,6 +1,8 @@
 import { isPalindrome } from "./palindrome.js";
-
-var msg = 'Hellow world';
-console.log(msg);
-const b = isPalindrome('abba');
-const c = isPalindrome('adfg');
+import { getMaxProduct } from "./adjacentElementsProduct.js";
+import { getShapeArea } from "./shapeArea.js";
+import { consecutive } from "./consecutive.js";
+import { strictlyIncreasing } from "./strictlyIncreasing.js";
+import { getMatrixElementsSum } from "./matrixElementsSum.js";
+const k = getMatrixElementsSum(matrix);
+const a = 1;
