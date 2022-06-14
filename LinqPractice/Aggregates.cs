@@ -34,13 +34,67 @@ iteration:4, a=10, b=5, ret=15";
             Assert.AreEqual(expectedIterations.Trim(), iterations.Trim());
         }
 
+        /// <summary>
+        /// H δεύτερη Aggregate (με μετασχηματισμό) τρέχει Ν φορές για Ν στοιχεία
+        /// - το προϊόν του μετασχηματισμού στο βήμα Χ τροφοδοτείται στο βήμα Χ+1
+        /// - για το πρώτο βήμα χρησιμοποιείται ο "σπόρος" seed γι' αυτό και η συγκεκριμένη Aggregate παίρνει δύο ορίσματα
+        /// (το πρώτο είναι ο σπόρος)
+        /// </summary>
         [TestMethod]
         public void AggregateWithTransformation()
         {
             var seq = new int[] { 1, 2, 3, 4, 5 };
             var iterations = string.Empty;
             var i = 1;
-            var result = seq.Aggregate(string.Empty, (conc, item) => conc + item.ToString());
+            var result = seq.Aggregate(string.Empty, (conc, item) =>
+            {
+                var ret = conc + item.ToString();
+                iterations += $"iteration:{i}, acc={conc}, item={item}, ret={ret}{System.Environment.NewLine}";
+                i++;
+                return conc + item.ToString();
+            });
+            Assert.AreEqual("12345", result);
+            var expectedIterations = @"
+iteration:1, acc=, item=1, ret=1
+iteration:2, acc=1, item=2, ret=12
+iteration:3, acc=12, item=3, ret=123
+iteration:4, acc=123, item=4, ret=1234
+iteration:5, acc=1234, item=5, ret=12345";
+            Assert.AreEqual(expectedIterations.Trim(), iterations.Trim());
+        }
+
+        /// <summary>
+        /// Η τελευταία υπερφόρτωση της Aggregate είναι μάλλον άχρηστη. Μιας και η 2η συνάρτηση που παίρνει ως όρισμα τρέχει μία φορά στο τέλος.
+        /// Είναι δηλαδή το ίδιο με το αν το έτρεχα εκτός του Aggregate.
+        /// </summary>
+        [TestMethod]
+        public void AggregateLast()
+        {
+            var seq = new int[] { 1, 2, 3, 4, 5 };
+            var iterations = string.Empty;
+            var resultSelectorIterations = string.Empty;
+            var i = 1;
+            var r = 1;
+            var result = seq.Aggregate(string.Empty, (conc, item) =>
+            {
+                var ret = conc + item.ToString();
+                iterations += $"iteration:{i}, acc={conc}, item={item}, ret={ret}{System.Environment.NewLine}";
+                i++;
+                return conc + item.ToString();
+            }, a =>
+            {
+                resultSelectorIterations += r + System.Environment.NewLine;
+                return a.Length;
+            });
+            Assert.AreEqual(5, result);
+            var expectedIterations = @"
+iteration:1, acc=, item=1, ret=1
+iteration:2, acc=1, item=2, ret=12
+iteration:3, acc=12, item=3, ret=123
+iteration:4, acc=123, item=4, ret=1234
+iteration:5, acc=1234, item=5, ret=12345";
+            Assert.AreEqual(expectedIterations.Trim(), iterations.Trim());
+            Assert.AreEqual("1", resultSelectorIterations.Trim());
         }
     }
 }
