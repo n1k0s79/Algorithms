@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2019-01-21 Authority partners Bosnia\Test.cs" />
+    <Compile Include="ConformingBitMasks.cs" />
     <Compile Include="FrogRiverOne.cs" />
     <Compile Include="MinFrogJmp.cs" />
     <Compile Include="MissingInteger.cs" />
