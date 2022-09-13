@@ -53,6 +53,7 @@
     <Compile Include="PassingCars.cs" />
     <Compile Include="MinAvgTwoSlice.cs" />
     <Compile Include="GenomicRangeQuery.cs" />
+    <Compile Include="Practice.cs" />
     <Compile Include="TapeEquilibrium.cs" />
     <Compile Include="PermMissingElem.cs" />
     <Compile Include="OddOneOut.cs" />
