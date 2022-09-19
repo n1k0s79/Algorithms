@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace Codility
+namespace Interviews.Betsson.Question4
 {
     // την απάντησα λάθος
     // η Β θα τρέξει πιο αργά

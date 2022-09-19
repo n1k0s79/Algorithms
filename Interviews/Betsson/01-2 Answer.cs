@@ -1,4 +1,4 @@
-﻿namespace Codility.BetssonTest
+﻿namespace Interviews.Betsson.Question1
 {
     public interface InterfaceA { }
     public interface InterfaceB { }
