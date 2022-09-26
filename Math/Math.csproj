@@ -53,6 +53,7 @@
     <Compile Include="LatticePaths.cs" />
     <Compile Include="LeastCommonMultiple.cs" />
     <Compile Include="Palindrome.cs" />
+    <Compile Include="PermutationT.cs" />
     <Compile Include="PermutationTests.cs" />
     <Compile Include="Permutation.cs" />
     <Compile Include="Primes.cs" />

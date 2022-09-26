@@ -19,4 +19,9 @@
     <ProjectReference Include="..\Util\Util.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Betsson\Task2\" />
+    <Folder Include="Betsson\Task1\" />
+  </ItemGroup>
+
 </Project>

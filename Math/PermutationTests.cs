@@ -9,6 +9,38 @@ namespace Math
     [TestClass]
     public class PermutationTests
     {
+        [TestMethod]
+        public void Simplest()
+        {
+            var a = new char[] { 'a', 'b', 'c', 'd' }.ToList();
+            var myPerms = GetAllPermutations(a);
+            var linqPerms = Permutation.GetAll(a).ToList();
+            for (int i = 0; i < linqPerms.Count; i++) Assert.IsTrue(myPerms[i].SequenceEqual(linqPerms[i]));
+        }        
+
+        /// <summary> H δική μου συνάρτηση για τις μεταθέσεις. (26/9/2022) 
+        /// 20 γραμμές κώδικα αντί 2 του linq
+        /// </summary>
+        public static List<List<T>> GetAllPermutations<T>(List<T> list)
+        {
+            if (list.Count == 2)
+            {
+                return new List<List<T>>() { new List<T>() { list[0], list[1] }, new List<T>() { list[1], list[0] } };
+            }
+            var currentLists = new List<List<T>>();
+            foreach (var head in list)
+            {
+                var tail = list.Except(new T[] { head }).ToList();
+                var prevPermutations = GetAllPermutations(tail);
+                foreach (var prevPerm in prevPermutations)
+                {
+                    var newList = new List<T>() { head };
+                    newList.AddRange(prevPerm);
+                    currentLists.Add(newList);
+                }
+            }
+            return currentLists;
+        }
 
         [TestMethod]
         public void Test()
