@@ -41,6 +41,14 @@ namespace CodeWars
             Assert.AreEqual(19, result);
         }
 
+        [TestMethod]
+        public void TestClever()
+        {
+            var input = new (int, int)[] { (1, 5), (10, 20), (1, 6), (16, 19), (5, 11) };
+            var result = SumIntervalsClever(input);
+            Assert.AreEqual(19, result);
+        }
+
         // Η λύση μου
         public static int SumIntervals((int, int)[] intervals)
         {
@@ -103,14 +111,21 @@ namespace CodeWars
 
         /// <summary> Αυτή τη λύση τη βρήκα στο codewars 
         /// Πώς δουλεύει και γιατί; </summary>
-        public static int SumIntervals2((int min, int max)[] intervals)
+        public static int SumIntervalsClever((int min, int max)[] intervals)
         {
             var prevMax = int.MinValue;
-
-            return intervals
+            var orderdIntervals = intervals
                 .OrderBy(x => x.min)
-                .ThenBy(x => x.max)
-                .Aggregate(0, (acc, x) => acc += prevMax < x.max ? -Math.Max(x.min, prevMax) + (prevMax = x.max) : 0);
+                .ThenBy(x => x.max).ToList();
+            var result = orderdIntervals.Aggregate(0, (acc, x) => {
+                acc += prevMax;
+                if (acc >= x.max) return 0;
+                var ret = -Math.Max(x.min, prevMax);
+                prevMax = x.max;
+                ret += prevMax;
+                return ret;
+            });
+            return result;
         }
     }
 }
