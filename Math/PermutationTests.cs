@@ -16,7 +16,14 @@ namespace Math
             var myPerms = Permutation.GetAllPermutations(a);
             var linqPerms = Permutation.GetAllΤ(a).ToList();
             for (int i = 0; i < linqPerms.Count; i++) Assert.IsTrue(myPerms[i].SequenceEqual(linqPerms[i]));
-        }        
+        }
+
+        [TestMethod]
+        public void PermsPerN()
+        {
+            var a = new int[] { 1, 2, 3, 4, 5 };
+            var myPerms = Permutation.GetAll(a, 3).ToList();
+        }
 
         [TestMethod]
         public void Test()

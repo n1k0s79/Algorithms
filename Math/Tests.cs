@@ -13,8 +13,9 @@ namespace Math
         [TestMethod ]
         public void Perms()
         {
-            var k = new int[] { 1, 0, 0, 2 };
-            var all = Math.Permutation<int>.GetAllPossible(k);
+            var k = new int[] { 1, 2, 3 };
+            var all = Permutation<int>.GetAllPossible(k);
+            var j = Permutation.GetAll(new int[] { 1, 2, 3 }).ToList();
         }
 
         [TestMethod]

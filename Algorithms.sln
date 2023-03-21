@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codility", "Codility\Codili
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{B9D9BEA3-C5A5-4B3F-80D6-434EEBBB04DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interviews", "Interviews\Interviews.csproj", "{E18FF627-2162-4B1F-A2FB-DF76E03D2D09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interviews", "Interviews\Interviews.csproj", "{E18FF627-2162-4B1F-A2FB-DF76E03D2D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankConsole", "HackerRankConsole\HackerRankConsole.csproj", "{FF1B7B38-0374-4645-9306-FD72F4EC2995}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{E18FF627-2162-4B1F-A2FB-DF76E03D2D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E18FF627-2162-4B1F-A2FB-DF76E03D2D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E18FF627-2162-4B1F-A2FB-DF76E03D2D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1B7B38-0374-4645-9306-FD72F4EC2995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1B7B38-0374-4645-9306-FD72F4EC2995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1B7B38-0374-4645-9306-FD72F4EC2995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1B7B38-0374-4645-9306-FD72F4EC2995}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
