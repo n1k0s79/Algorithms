@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace Trees
@@ -56,10 +57,7 @@ namespace Trees
             {
                 var current = queue.Dequeue();
                 action(current);
-                foreach (var child in current.Nodes)
-                {
-                    queue.Enqueue(child);
-                }
+                foreach (var child in current.Nodes) queue.Enqueue(child);
             }
         }
 
@@ -70,12 +68,10 @@ namespace Trees
             while (stack.Count > 0)
             {
                 var current = stack.Pop();
-                action(current);
+                action(current);                
+                foreach (var child in current.Nodes) stack.Push(child);
                 // Push children in reverse order to maintain left-to-right traversal
-                for (int i = current.Nodes.Count - 1; i >= 0; i--)
-                {
-                    stack.Push(current.Nodes[i]);
-                }
+                // for (int i = current.Nodes.Count - 1; i >= 0; i--) stack.Push(current.Nodes[i]);
             }
         }
     }
