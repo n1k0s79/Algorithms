@@ -90,5 +90,14 @@ namespace Math
             var s = "five hundred and fifty five quatrillion six hundred and sixty six trillion eight hundred and eighty eight billion one hundred and twenty three million four hundred and fifty six thousand seven hundred and eighty nine";
             Assert.AreEqual(s, w1.ToString());
         }
+
+
+        [TestMethod]
+        public void PowerSet()
+        {
+            var s = new string[] { "a", "b", "c", "d" };
+            var comb = new Combination<string>(s, 2);
+            var items = comb.Items;
+        }
     }
 }

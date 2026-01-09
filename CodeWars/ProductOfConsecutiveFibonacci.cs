@@ -101,7 +101,11 @@ namespace CodeWars
                         var newFib = n[n.Count - 1] + n[n.Count - 2];
                         n.Add(newFib);
                     }
-                    catch (OverflowException x)
+                    catch (ArgumentException x)
+                    {
+
+                    }
+                    catch (Exception x)
                     {
                         return n.ToArray();
                     }

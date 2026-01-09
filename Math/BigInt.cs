@@ -2,14 +2,25 @@
 
 namespace Math
 {
+    delegate bool IntegerFilterer(int a, int threshold);
+
     // Note: System.Numerics.BigInteger is much faster
     public class BigInt
     {
+        private IntegerFilterer myFilterer;
+
         public readonly string Value;
+        private int MyValue;
+
+        private bool BigIntegerFilterer(int myNumber, int greaterThan)
+        {
+            return myNumber > greaterThan;
+        }
 
         public BigInt()
         {
             Value = "0";
+            myFilterer = BigIntegerFilterer;
         }
 
         public BigInt(int a)

@@ -23,6 +23,7 @@ namespace Euler
 
         public static long SimpleSolution(long target)
         {
+            if (target <= 0) throw new System.Exception("Numbers less than or equal to zero are not allowed");
             long sum = 0;
             for (long i = 1; i < target; i++)
             {
